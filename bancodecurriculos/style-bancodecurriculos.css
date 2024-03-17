@@ -1,0 +1,189 @@
+@font-face {
+    font-family: 'Kenao';
+    src: url(Kenao.otf);
+  }
+
+  #login {
+    text-transform: capitalize;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    padding: 20px 30px;
+    font-size: 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-bottom: 25%;
+    margin-top: 10%;
+    text-align: center;
+    float: right;
+    border-color: #5ACFFB;
+    color: #00bafd;
+    margin-left: 10px;
+  }
+  
+  #login:hover {
+    background: rgb(247, 150, 192);
+    background: radial-gradient(circle, rgba(247, 150, 192, 1) 0%, rgba(118, 174, 241, 1) 100%);
+    color: white;
+  
+  }
+
+
+* {
+    box-sizing: inherit;
+}
+
+
+html {
+    box-sizing: border-box;
+    font-size: var(--htmlFontSize);
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background: url(LINHAS\ BACK\ LEFT.png) left top no-repeat, url(LINHAS\ BACK\ RIGHT.png) right bottom no-repeat;
+}
+
+
+header {
+    margin-top: 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+#icon {
+    height: 100px;
+}
+
+.estrelinha{
+    height: 40px;
+    margin-top: 20px;
+}
+
+header a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 15px;
+    font-size: 20pt;
+    margin-top: 27px;
+    background: linear-gradient(180deg, #5BCEF2 0%, #F5A8B8 50%, #5CCDFA 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+header a:hover {
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.253), 0 0 5px #ffffff;
+}
+
+#titulo h1 {
+    text-transform: uppercase;
+    text-decoration: none;
+  
+   
+    font-size: 10pt;
+    
+    background: linear-gradient(180deg, #5BCEF2 0%, #F5A8B8 50%, #5CCDFA 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+#titulo h1 :hover {
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.253), 0 0 5px #ffffff;
+}
+
+#cadastroLogin {
+    text-align: center;
+    margin-right: 1em;
+}
+
+#body {
+    display: flex;
+    align-items: center;
+}
+
+main {
+    display: flex;
+}
+
+#textinho {
+    width: 40%;
+    margin: 5%;
+}
+
+#textinho h1 {
+    font-family: "Kenao";
+    background: linear-gradient(180deg, #5BCEF2 0%, #F5A8B8 50%, #5CCDFA 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3em;
+    margin-top: 2em;
+}
+
+#textinho p {
+    margin: 50px;
+    line-height: 30px;
+}
+
+.icon {
+    block-size: 1em;
+    display: inline-block;
+    inline-size: 1em;
+    vertical-align: middle;
+}
+
+#formulario {
+    width: 40%;
+    border-radius: 50px;
+    background: linear-gradient(white, white) padding-box,
+        linear-gradient(180deg, #5BCEF2 0%, #F5A8B8 50%, #5CCDFA 100%) border-box;
+    border-radius: 50px;
+    border: 2px solid transparent;
+    margin-right: 5em;
+    height: 90%;
+    padding: 20px;
+    margin-top: 10em;
+}
+
+#formulario input {
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+#formulario #foto {
+    border: none;
+    cursor: pointer;
+}
+
+#formulario .titulos {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+#formulario .titulos span {
+    font-weight: lighter;
+    font-size: 0.5em;
+}
+
+#formulario button {
+    border-radius: 50px;
+    border: 1px solid #5BCEF2;
+    padding-left: 3em;
+    padding-right: 3em;
+    margin-top: 3em;
+    background: none;
+    cursor: pointer;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+

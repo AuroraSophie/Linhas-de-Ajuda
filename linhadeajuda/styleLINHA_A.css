@@ -1,0 +1,444 @@
+@font-face {
+  font-family: 'Kenao';
+  src: url(Kenao.otf);
+}
+
+
+body {
+  font-family: 'nunito', sans-serif;
+}
+
+header {
+  margin-top: 0%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 10px;
+
+}
+
+#icon {
+  height: 5.25em;
+}
+
+
+.estrelinha {
+  height: 40px;
+  margin-top: 20px;
+  margin-right: -10px;
+}
+
+header a {
+  text-transform: uppercase;
+  text-decoration: none;
+  background: linear-gradient(180deg, #5BCEF2 0%, #F5A8B8 50%, #5CCDFA 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  margin: 15px;
+  font-size: 20pt;
+  margin-top: 27px;
+}
+
+#icon {
+  height: 100px;
+}
+
+.estrelinha {
+  height: 40px;
+  margin-top: 20px;
+}
+
+#bandeirinha {
+  height: 50px;
+  margin-top: 25px;
+}
+
+
+footer {
+
+  background-color: white;
+  overflow: hidden;
+  position: static;
+  bottom: 0px;
+  margin-bottom: -65px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+}
+
+footer a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 15px;
+  font-size: 20pt;
+  background: linear-gradient(180deg, #5BCEF2 0%, #F5A8B8 50%, #5CCDFA 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+
+.footer {
+  font-size: 10pt;
+  margin: 0%;
+  margin: 15px;
+}
+
+
+
+.texto {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  width: 100%;
+  font-weight: bold;
+  margin-top: 70px;
+
+
+}
+
+
+.subtexto {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  width: 100%;
+  font-weight: bold;
+
+
+}
+
+.subtexto2 {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  width: 100%;
+  font-weight: bold;
+  float: right;
+  width: 500px;
+  height: 100px;
+  margin-bottom: 25%;
+  margin-top: -20%;
+  font-size: 15pt;
+  margin-right: 2px;
+
+
+}
+
+
+.infos {
+  width: 100%;
+  margin-top: 80px;
+  margin-bottom: 30%;
+
+}
+
+body {
+
+  background: url(img_LEFT\ TOP.png) right top no-repeat, url(img_RIGHT\ BOTTOM.png) left bottom no-repeat, url(LINHAS\ BACK\ LEFT.png) left top no-repeat, url(LINHAS\ BACK\ RIGHT.png) right bottom no-repeat;
+  background-size: 535px, 800px, auto, auto;
+  margin-left: -10;
+  margin-right: 200px;
+
+}
+
+.subinfos {
+  max-height: 150px;
+  max-width: 250px;
+  text-align: center;
+  padding: 2px;
+  margin-right: 3px;
+
+  border: double 1px transparent;
+  border-radius: 30px;
+  background-image: linear-gradient(white, white),
+    linear-gradient(to top, #5BCEFA, #F5A8B8);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+
+
+
+}
+
+#butForm {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 20px 30px;
+  font-size: 20px;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-bottom: 25%;
+  margin-top: -20%;
+  text-align: center;
+  float: right;
+  border-color: #5ACFFB;
+  color: #00bafd;
+  margin-left: 10px;
+}
+
+#butForm:hover {
+  background: rgb(247, 150, 192);
+  background: radial-gradient(circle, rgba(247, 150, 192, 1) 0%, rgba(118, 174, 241, 1) 100%);
+  color: white;
+
+}
+#login {
+  text-transform: capitalize;
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 20px 30px;
+  font-size: 20px;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-bottom: 25%;
+  margin-top: 10%;
+  text-align: center;
+  float: right;
+  border-color: #5ACFFB;
+  color: #00bafd;
+  margin-left: 10px;
+}
+
+#login:hover {
+  background: rgb(247, 150, 192);
+  background: radial-gradient(circle, rgba(247, 150, 192, 1) 0%, rgba(118, 174, 241, 1) 100%);
+  color: white;
+
+}
+
+
+#more1 {
+  display: none;
+}
+
+#more2 {
+  display: none;
+}
+
+#more3 {
+  display: none;
+}
+
+#more4 {
+  display: none;
+}
+
+#more5 {
+  display: none;
+}
+
+#more6 {
+  display: none;
+}
+
+#more7 {
+  display: none;
+}
+
+#more8 {
+  display: none;
+}
+
+#more9 {
+  display: none;
+}
+
+.butao1 {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 10px 15px;
+  font-size: 13px;
+  cursor: pointer;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  text-align: center;
+
+  border-color: #5ACFFB;
+  color: #00bafd;
+}
+
+.butao1:hover {
+  background: rgb(247, 150, 192);
+  background: radial-gradient(circle, rgba(247, 150, 192, 1) 0%, rgba(118, 174, 241, 1) 100%);
+  color: white;
+
+}
+
+.butao2 {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 10px 15px;
+  font-size: 13px;
+  cursor: pointer;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  text-align: center;
+
+  border-color: #5ACFFB;
+  color: #00bafd;
+}
+
+.butao2:hover {
+  background: rgb(247, 150, 192);
+  background: radial-gradient(circle, rgba(247, 150, 192, 1) 0%, rgba(118, 174, 241, 1) 100%);
+  color: white;
+
+}
+
+.butao3 {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 10px 15px;
+  font-size: 13px;
+  cursor: pointer;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  text-align: center;
+  border-color: #5ACFFB;
+  color: #00bafd;
+}
+
+.butao3:hover {
+  background: rgb(247, 150, 192);
+  background: radial-gradient(circle, rgba(247, 150, 192, 1) 0%, rgba(118, 174, 241, 1) 100%);
+  color: white;
+
+}
+
+.butao4 {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 10px 15px;
+  font-size: 13px;
+  cursor: pointer;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  text-align: center;
+  border-color: #5ACFFB;
+  color: #00bafd;
+}
+
+.butao4:hover {
+  background: rgb(247, 150, 192);
+  background: radial-gradient(circle, rgba(247, 150, 192, 1) 0%, rgba(118, 174, 241, 1) 100%);
+  color: white;
+
+}
+
+.butao5 {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 10px 15px;
+  font-size: 13px;
+  cursor: pointer;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  text-align: center;
+  border-color: #5ACFFB;
+  color: #00bafd;
+}
+
+.butao5:hover {
+  background: rgb(247, 150, 192);
+  background: radial-gradient(circle, rgba(247, 150, 192, 1) 0%, rgba(118, 174, 241, 1) 100%);
+  color: white;
+
+}
+
+.butao6 {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 10px 15px;
+  font-size: 13px;
+  cursor: pointer;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  text-align: center;
+  border-color: #5ACFFB;
+  color: #00bafd;
+}
+
+.butao6:hover {
+  background: rgb(247, 150, 192);
+  background: radial-gradient(circle, rgba(247, 150, 192, 1) 0%, rgba(118, 174, 241, 1) 100%);
+  color: white;
+
+}
+
+.butao7 {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 10px 15px;
+  font-size: 13px;
+  cursor: pointer;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  text-align: center;
+  border-color: #5ACFFB;
+  color: #00bafd;
+}
+
+.butao7:hover {
+  background: rgb(247, 150, 192);
+  background: radial-gradient(circle, rgba(247, 150, 192, 1) 0%, rgba(118, 174, 241, 1) 100%);
+  color: white;
+
+}
+
+.butao8 {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 10px 15px;
+  font-size: 13px;
+  cursor: pointer;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  text-align: center;
+  border-color: #5ACFFB;
+  color: #00bafd;
+}
+
+.butao8:hover {
+  background: rgb(247, 150, 192);
+  background: radial-gradient(circle, rgba(247, 150, 192, 1) 0%, rgba(118, 174, 241, 1) 100%);
+  color: white;
+
+}
+
+.butao9 {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 10px 15px;
+  font-size: 13px;
+  cursor: pointer;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  text-align: center;
+  border-color: #5ACFFB;
+  color: #00bafd;
+}
+
+.butao9:hover {
+  background: rgb(247, 150, 192);
+  background: radial-gradient(circle, rgba(247, 150, 192, 1) 0%, rgba(118, 174, 241, 1) 100%);
+  color: white;
+
+}

@@ -1,0 +1,130 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    background: url(PÁGINA\ BRUNNO.png) no-repeat;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: "Kenao";
+    src:
+      local("kenao"),
+      url("fyv/Kenao.otf");
+  }
+
+header {
+    margin-top: 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+#icon {
+ height:100px;
+}
+
+.estrelinha{
+    height: 40px;
+    margin-top: 20px;
+}
+
+header a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 15px;
+    font-size: 20pt;
+    margin-top: 27px;
+    background: linear-gradient(180deg, #5BCEF2 0%, #F5A8B8 50%, #5CCDFA 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+header a:hover {
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.253), 0 0 5px #ffffff;
+}
+
+
+
+#body {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 155px;
+    margin-top: 40px;
+}
+
+#sobre-brunno {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+#sobre-brunno h1 {
+    font-family: "kenao";
+    background: linear-gradient(180deg, #5BCEF2 0%, #F5A8B8 50%, #5CCDFA 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 100px;
+    text-align: center;
+}
+
+.social-media {
+    height: 50px;
+}
+
+#sobre-brunno p {
+    font-size: 30px;
+    text-align: center;
+}
+
+#img-brunno {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+#img-brunno img {
+    height: 600px;
+}
+
+#body {
+    align-items: center;
+    /* margin-top: 10em; */
+}
+
+footer {
+
+    background-color: white;
+    overflow: hidden;
+    position: static;
+    bottom: 0px;
+    margin-bottom: -65px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+  }
+  
+  footer a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 15px;
+    font-size: 20pt;
+    background: linear-gradient(180deg, #5BCEF2 0%, #F5A8B8 50%, #5CCDFA 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+  }
+  
+  
+  .footer {
+    font-size: 10pt;
+    margin: 0%;
+    margin: 15px;
+  }
