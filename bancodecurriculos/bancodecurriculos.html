@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banco de Currículos</title>
+    <link rel="stylesheet" href="bancodecurriculos/style-bancodecurriculos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;1,200&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        
+        <img src="brunno/estrelinha.svg" alt="estrelinha" class="estrelinha">
+        <a href="linhasdeajuda.html">linhas de ajuda</a>
+        
+        <img src="brunno/estrelinha.svg" alt="estrelinha" class="estrelinha">
+        <form action="login.html" method="post">
+            <input type="submit" id="login" name="login" value="Login" class="login" >
+      </form>
+    </header>
+
+    <center>
+        <main>
+            <div id="textinho">
+                
+                <h1 class="titulo">Cadastro de currículos</h1>
+                <p>Bem-vindo ao nosso banco de currículos. Aqui, buscamos conectar profissionais a oportunidades de
+                    trabalho por meio de parcerias estratégicas com empresas de destaque. Ao registrar-se em nosso site,
+                    você não apenas integra um banco de currículos, mas também ganha acesso exclusivo a vagas
+                    disponibilizadas por nossos parceiros, empresas que valorizam a diversidade de talentos e buscam
+                    profissionais comprometidos com o sucesso mútuo.</p>
+                <p>Trabalhamos em estreita colaboração com as empresas para identificar candidatos que atendam não
+                    apenas aos requisitos técnicos, mas também que estejam alinhados culturalmente. Ao fazer parte de
+                    nossa comunidade, você inicia uma jornada de parceria e crescimento, transformando a busca por
+                    emprego em uma experiência eficiente e transformadora.</p>
+                <p>Cadastre-se agora para descobrir oportunidades que impulsionarão sua carreira a novos patamares!</p>
+
+               
+                <p class="text--center">Já possui cadastro? <a href="login.html">Entre aqui</a> <svg class="icon">
+                        <use xlink:href="#icon-arrow-right"></use>
+                    </svg></p>
+
+            </div>
+
+            <div id="formulario">
+                <form action="bancodecurriculos/usuario.php" id="cadastro" method="post" autocomplete="off">
+
+                    <p class="titulos">Informações pessoais</p>
+                    <table id="dadosPessoais" class="cadastro">
+                        <tr>
+                            <td><label for="nome">Nome completo: </label></td>
+                            <td><input type="text" name="nome" id="nome" required></td>
+                        </tr>
+
+                        <tr>
+                            <td><label for="email">E-mail: </label></td>
+                            <td><input type="email" name="email" id="email" required></td>
+                        </tr>
+
+                        <tr>
+                            <td><label for="password">Senha: </label></td>
+                            <td><input type="password" id="password" name="password" required></td>
+                        </tr>
+                    </table>
+                    <p class="titulos">Informações para o currículo</p>
+
+                    <table id="infoCurriculo" class="cadastro">
+                        <tr>
+                            <td><label for="tel">Telefone para contato: </label></td>
+                            <td><input type="tel" name="tel" id="tel"></td>
+                        </tr>
+
+                        <tr>
+                            <td><label for="endereco">Endereço: </label></td>
+                            <td><input type="text" name="endereco" id="endereco"></td>
+                        </tr>
+
+                        <tr>
+                            <td><label for="cidade-estado">Cidade/UF: </label></td>
+                            <td><input type="text" name="cidade-estado" id="cidade-estado"></td>
+
+                        </tr>
+
+                        <tr>
+                            <td><label for="cep">CEP: </label></td>
+                            <td><input type="number" name="cep" id="cep"></td>
+                        </tr>
+                    </table>
+
+                    <p class="titulos">Informações acadêmicas</p>
+
+                    <table id="infoAcad" class="cadastro">
+
+                        <tr>
+                            <td><label for="escolaridade">Nível de escolaridade: </label></td>
+                            <td><select id="escolaridade" name="escolaridade">
+                                    <option value="">...</option>
+                                    <option value="sem formacao">Não tenho escolaridade</option>
+                                    <option value="ensino fundamental">Ensino Fundamental</option>
+                                    <option value="ensino medio">Ensino Médio</option>
+                                    <option value="ensino superior">Ensino Superior</option>
+                                    <option value="mestrado ou mais">Mestrado ou superior</option>
+                                </select></td>
+                        </tr>
+
+                        <tr>
+                            <td><label for="instdeensino">Instituição de ensino: </label></td>
+                            <td><input type="text" name="instdeensino" id="instdeensino"></td>
+                        </tr>
+                    </table>
+
+                    <p class="titulos">Experiência profissional <br><span>Informe a experiência mais relevante para
+                            você</span></p>
+
+                    <!-- <input type="checkbox" name="semexperiencia" id="semexperiencia"> <label
+                            for="semexperiencia">Não
+                            tenho experiência profissional</label> -->
+
+                    <table id="expProfissional" class="cadastro">
+                        <tr>
+                            <td><label for="cargo">Cargo: </label></td>
+                            <td><input type="text" name="cargo" id="cargo"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="empresa">Empresa: </label></td>
+                            <td><input type="text" name="empresa" id="empresa"></td>
+                        </tr>
+
+                        <tr>
+                            <td><label for="data-inicio">Data de início: </label> <input type="date" name="data-inicio"
+                                    id="data-inicio"></td>
+                            <td><label for="data-fim">Data fim: </label> <input type="date" name="data-fim"
+                                    id="data-fim">
+                            </td>
+                        </tr>
+
+                        <!-- <tr>
+                                <td>
+                                    <p>Foto para o currículo:</p>
+                                </td>
+                                <td><input type="file" name="foto" id="foto"></td>
+                            </tr> -->
+
+                        <tr>
+                            <td><label for="infocomplemetar">Informações complementares</label></td>
+                            <td><textarea name="infocomplementar" id="infocomplementar" cols="22" rows="5"></textarea>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <button type="submit" form="cadastro" class="effect effect-5">Enviar</button>
+
+                </form>
+            </div>
+        </main>
+
+    </center>
+</body>
+<svg xmlns="http://www.w3.org/2000/svg" class="icons">
+    <symbol id="icon-arrow-right" viewBox="0 0 1792 1792">
+        <path
+            d="M1600 960q0 54-37 91l-651 651q-39 37-91 37-51 0-90-37l-75-75q-38-38-38-91t38-91l293-293H245q-52 0-84.5-37.5T128 1024V896q0-53 32.5-90.5T245 768h704L656 474q-38-36-38-90t38-90l75-75q38-38 90-38 53 0 91 38l651 651q37 35 37 90z" />
+    </symbol>
+</svg>
+
+</html>
